@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3; url=https://www.roblox.com/share?code=c204e024684eae40be14900878817dbe&type=Server">
+    <title>Redirecting...</title>
+    <style>
+        /* Body style */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #7289DA, #99AAB5);
+            font-family: 'Arial', sans-serif;
+            color: white;
+            overflow: hidden;
+            position: relative;
+            animation: gradientAnimation 15s ease infinite;
+        }
+
+        /* Container style */
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+            position: relative;
+        }
+
+        /* Heading style */
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            animation: slideIn 1.5s ease-out;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: white;
+        }
+
+        /* Subheading style */
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            opacity: 0;
+            animation: fadeUp 2s ease-in-out 1.5s forwards;
+        }
+
+        /* Button style */
+        .button {
+            background-color: #ffffff;
+            color: #7289DA;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-top: 30px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            animation: scaleUp 1s ease-out 2.5s forwards;
+        }
+
+        /* Button hover effect */
+        .button:hover {
+            background-color: #7289DA;
+            color: white;
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animations */
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            60% {
+                transform: translateY(10px);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes scaleUp {
+            0% {
+                transform: scale(0);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Extra visual effects */
+        .floating {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: float 2.5s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+            }
+            50% {
+                transform: translate(-50%, -45%) scale(1.1);
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting...</h1>
+        <p>We are taking you to ttvleeroy's private server!</p>
+        <a href="https://www.roblox.com/share?code=c204e024684eae40be14900878817dbe&type=Server" class="button">Click here if not redirected</a>
+    </div>
+
+    <div class="floating">
+        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+            <circle cx="50" cy="50" r="30"/>
+        </svg>
+    </div>
+</body>
+</html>
